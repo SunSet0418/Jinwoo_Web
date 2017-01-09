@@ -1,0 +1,75 @@
+html, body{
+	background-color: #A297BD;
+	background-size: 100%;
+}
+.top{
+	border-style: double;
+	height: 150px;
+	width: 100%;
+	background-color:#FF91DC; 
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-size: 33px;
+}
+.mid{
+	border-style: dashed;
+	font-size: 35px;
+	font-family: 'Nanum Pen Script';
+	margin-top: 10px;
+	height: 50px;
+	width:100%;
+	background-color: #9905D8; 
+	text-align: center;
+	margin-bottom: 10px;
+}
+.bottom{
+	height: 100%;
+	width: 100%;
+}
+.button {
+   border: 2px solid #ff00ff;
+   background: #ffffff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+   background: -webkit-linear-gradient(top, #ffffff, #ffffff);
+   background: -moz-linear-gradient(top, #ffffff, #ffffff);
+   background: -ms-linear-gradient(top, #ffffff, #ffffff);
+   background: -o-linear-gradient(top, #ffffff, #ffffff);
+   background-image: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+   padding: 4.5px 9px;
+   -webkit-border-radius: 18px;
+   -moz-border-radius: 18px;
+   border-radius: 18px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #a331b5 0 1px 0;
+   color: #000000;
+   font-size: 24px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border: 2px solid #0a3c59;
+   text-shadow: #b5247b 0 1px 0;
+   background: #943e9c;
+   background: -webkit-gradient(linear, left top, left bottom, from(#c765d6), to(#943e9c));
+   background: -webkit-linear-gradient(top, #c765d6, #943e9c);
+   background: -moz-linear-gradient(top, #c765d6, #943e9c);
+   background: -ms-linear-gradient(top, #c765d6, #943e9c);
+   background: -o-linear-gradient(top, #c765d6, #943e9c);
+   background-image: -ms-linear-gradient(top, #c765d6 0%, #943e9c 100%);
+   color: #000000;
+   }
+.button:active {
+   text-shadow: #571e50 0 1px 0;
+   border: 2px solid #381840;
+   background: #d065d6;
+   background: -webkit-gradient(linear, left top, left bottom, from(#9c3e91), to(#943e9c));
+   background: -webkit-linear-gradient(top, #9c3e91, #d065d6);
+   background: -moz-linear-gradient(top, #9c3e91, #d065d6);
+   background: -ms-linear-gradient(top, #9c3e91, #d065d6);
+   background: -o-linear-gradient(top, #9c3e91, #d065d6);
+   background-image: -ms-linear-gradient(top, #9c3e91 0%, #d065d6 100%);
+   color: #fff;
+   }

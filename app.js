@@ -40,3 +40,19 @@ app.listen(3000, function(err){
     console.log('Server Running At 80 Port!')
   }
 })
+
+app.get('/', function(req, res){
+  fs.readFile('index.html', 'utf-8', function(err, data){
+    res.send(data)
+  })
+})
+
+app.get('/letter', function(req, res){
+  fs.readFile('letter.html', 'utf-8', function(err, data){
+    res.send(data)
+  })
+})
+
+app.post('/letter', function(req, res){
+
+})
