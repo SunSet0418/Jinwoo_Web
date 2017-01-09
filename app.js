@@ -10,6 +10,8 @@ app.use(bodyParser.urlencoded({
   extended : true
 }))
 
+app.use(express.static('public'));
+
 mongoose.connect("mongodb://localhost/jinwooweb", function(err){
   if(err){
     console.log("DB Error")
@@ -21,10 +23,10 @@ mongoose.connect("mongodb://localhost/jinwooweb", function(err){
 })
 
 var UserSchema = new schema({
-  username : {
+  name : {
     type : String
   },
-  password : {
+  letter : {
     type : String
   }
 })
@@ -54,5 +56,21 @@ app.get('/letter', function(req, res){
 })
 
 app.post('/letter', function(req, res){
+  var body = req.body;
 
+  var user = new User({
+    name : body.name,
+    letter : body.letter
+  })
+
+  user.save(function(err, result){
+    if(err){
+      console.log('/letter Error!')
+      throw err
+    }
+    else {
+      console.log(body.name + " Letter Save At Database")
+      res.redirect('/')
+    }
+  })
 })

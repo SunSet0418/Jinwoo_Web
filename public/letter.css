@@ -1,0 +1,59 @@
+html, body{
+   background-color: #A297BD;
+   background-size: 100%;
+}
+.top{
+   
+   width: 100%;
+   height: 150px;
+   background-color: #A297BD;
+}
+.button {
+   font-family: 'Jeju Hallasan', serif;
+   border: 1px solid #ad46e0;
+   background: #ad46e0;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ad46e0), to(#ad46e0));
+   background: -webkit-linear-gradient(top, #ad46e0, #ad46e0);
+   background: -moz-linear-gradient(top, #ad46e0, #ad46e0);
+   background: -ms-linear-gradient(top, #ad46e0, #ad46e0);
+   background: -o-linear-gradient(top, #ad46e0, #ad46e0);
+   background-image: -ms-linear-gradient(top, #ad46e0 0%, #ad46e0 100%);
+   padding: 10.5px 21px;
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30px;
+   border-radius: 30px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #ad46e0 0 1px 0;
+   color: #ffffff;
+   font-size: 22px;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   font-family: 'Jeju Hallasan', serif;
+   border: 1px solid #ad46e0;
+   text-shadow: #ad46e0 0 1px 0;
+   background: #ad46e0;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ad46e0), to(#ad46e0));
+   background: -webkit-linear-gradient(top, #ad46e0, #ad46e0);
+   background: -moz-linear-gradient(top, #ad46e0, #ad46e0);
+   background: -ms-linear-gradient(top, #ad46e0, #ad46e0);
+   background: -o-linear-gradient(top, #ad46e0, #ad46e0);
+   background-image: -ms-linear-gradient(top, #ad46e0 0%, #ad46e0 100%);
+   color: #fff;
+   }
+.button:active {
+   font-family: 'Jeju Hallasan', serif;
+   text-shadow: #ad46e0 0 1px 0;
+   border: 1px solid #ad46e0;
+   background: #ad46e0;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ad46e0), to(#ad46e0));
+   background: -webkit-linear-gradient(top, #ad46e0, #ad46e0);
+   background: -moz-linear-gradient(top, #ad46e0, #ad46e0);
+   background: -ms-linear-gradient(top, #ad46e0, #ad46e0);
+   background: -o-linear-gradient(top, #ad46e0, #ad46e0);
+   background-image: -ms-linear-gradient(top, #ad46e0 0%, #ad46e0 100%);
+   color: #fff;
+   }
