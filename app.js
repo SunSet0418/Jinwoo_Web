@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({
 
 app.use(express.static('public'));
 
-mongoose.connect("mongodb://localhost/jinwooweb", function(err){
+mongoose.connect("mongodb://localhost:28001/jinwooweb", function(err){
   if(err){
     console.log("DB Error")
     throw err
